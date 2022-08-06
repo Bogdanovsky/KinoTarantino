@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ReservoirDogsActivity">
+
+            <TextView
+                android:id="@+id/reservoir_dogs_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:text="@string/reservoir_dogs_1992"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gray_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/btn_star_big_off"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="@+id/reservoir_dogs_header"
+                app:layout_constraintStart_toEndOf="@+id/reservoir_dogs_header"
+                app:layout_constraintTop_toTopOf="@+id/reservoir_dogs_header" />
+
+            <ImageView
+                android:id="@+id/golden_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/btn_star_big_on"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/reservoir_dogs_header"
+                app:layout_constraintStart_toEndOf="@+id/reservoir_dogs_header"
+                app:layout_constraintTop_toTopOf="@+id/reservoir_dogs_header" />
+
+            <ImageView
+                android:id="@+id/reservoir_dogs_large_image"
+                android:layout_width="197dp"
+                android:layout_height="296dp"
+                android:layout_margin="16dp"
+                android:scaleType="fitStart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/reservoir_dogs_header"
+                app:srcCompat="@drawable/reservoir_dogs_1992" />
+
+            <TextView
+                android:id="@+id/reservoir_dogs_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:layout_marginBottom="80dp"
+                android:gravity="center_vertical"
+                android:text="@string/reservoir_dogs_1992_description"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="@+id/reservoir_dogs_large_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/reservoir_dogs_large_image"
+                app:layout_constraintTop_toBottomOf="@id/reservoir_dogs_header" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="reservoir_dogs_large_image, reservoir_dogs_description" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/gray"
+                app:layout_constraintTop_toTopOf="@id/barrier2" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/reservoir_dogs_1992_info"
+                    android:textSize="12sp"
+                    app:layout_constraintTop_toTopOf="@id/view"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

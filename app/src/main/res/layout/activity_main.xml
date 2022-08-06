@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Reservoir Dogs-->
+        <ImageView
+            android:id="@+id/reservoir_dogs_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/reservoir_dogs_1992" />
+
+        <ImageView
+            android:id="@+id/reservoir_dogs_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/reservoir_dogs_1992" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Pulp Fiction-->
+        <ImageView
+            android:id="@+id/pulp_fiction_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/pulp_fiction_1994" />
+
+        <ImageView
+            android:id="@+id/pulp_fiction_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/pulp_fiction_1994" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Jackie Brown-->
+        <ImageView
+            android:id="@+id/jackie_brown_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/jackie_brown_1997" />
+
+        <ImageView
+            android:id="@+id/jackie_brown_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/jackie_brown_1997" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Death Proof-->
+        <ImageView
+            android:id="@+id/death_proof_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/death_proof_1997" />
+
+        <ImageView
+            android:id="@+id/death_proof_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/death_proof_1997" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Kill Bill vol.1-->
+        <ImageView
+            android:id="@+id/kill_bill_vol1_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/kill_bill_vol1_2003" />
+
+        <ImageView
+            android:id="@+id/kill_bill_vol1_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/kill_bill_vol_1_2003" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Kill Bill vol.2-->
+        <ImageView
+            android:id="@+id/kill_bill_vol2_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/kill_bill_vol2_2004" />
+
+        <ImageView
+            android:id="@+id/kill_bill_vol2_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/kill_bill_vol_2_2004" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Inglourious Basterds-->
+        <ImageView
+            android:id="@+id/inglourious_basterds_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/inglourious_basterds_2009" />
+
+        <ImageView
+            android:id="@+id/inglourious_basterds_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/inglorious_basterds_2009" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Django Unchained-->
+        <ImageView
+            android:id="@+id/django_unchained_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/django_unchained_2012" />
+
+        <ImageView
+            android:id="@+id/django_unchained_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/django_unchained_2012" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Hateful Eight-->
+        <ImageView
+            android:id="@+id/hateful_eight_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/hateful_eight_2015" />
+
+        <ImageView
+            android:id="@+id/hateful_eight_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/hateful_eight_2015" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+        <!--Once upon a time in Hollywood-->
+        <ImageView
+            android:id="@+id/once_upon_a_time_in_hollywood_image"
+            android:layout_width="@dimen/main_image_width"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="@dimen/main_image_margin"
+            android:src="@drawable/once_upon_a_time_in_hollywood_2019" />
+
+        <ImageView
+            android:id="@+id/once_upon_a_time_in_hollywood_star"
+            android:layout_width="@dimen/small_star_dim"
+            android:layout_height="@dimen/small_star_dim"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:translationX="@dimen/star_translation_dim"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/star_big_on"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="@string/once_upon_a_time_in_hollywood_2019" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@color/gray" />
+
+    </LinearLayout>
+
+</ScrollView>

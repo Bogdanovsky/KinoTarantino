@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kino Tarantino</string>
+    <string name="reservoir_dogs_1992">Reservoir Dogs (1992)</string>
+    <string name="pulp_fiction_1994">Pulp Fiction (1994)</string>
+    <string name="jackie_brown_1997">Jackie Brown (1997)</string>
+    <string name="death_proof_1997">Death Proof (1997)</string>
+    <string name="kill_bill_vol_1_2003">Kill Bill vol.1 (2003)</string>
+    <string name="kill_bill_vol_2_2004">Kill Bill vol.2 (2004)</string>
+    <string name="inglorious_basterds_2009">Inglorious Basterds (2009)</string>
+    <string name="django_unchained_2012">Django Unchained (2012)</string>
+    <string name="hateful_eight_2015">Hateful eight (2015)</string>
+    <string name="once_upon_a_time_in_hollywood_2019">Once upon a time in Hollywood (2019)</string>
+
+    <string name="reservoir_dogs_1992_description">A group of thieves assemble to pull of the perfect diamond heist. It turns into a bloody ambush when one of the men turns out to be a police informer. As the group begins to question each other\'s guilt, the heightening tensions threaten to explode the situation before the police step in.</string>
+    <string name="pulp_fiction_1994_description">Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson) are hitmen with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is interwoven with those of their boss, gangster Marsellus Wallace (Ving Rhames) ; his actress wife, Mia (Uma Thurman) ; struggling boxer Butch Coolidge (Bruce Willis) ; master fixer Winston Wolfe (Harvey Keitel) and a nervous pair of armed robbers, "Pumpkin" (Tim Roth) and "Honey Bunny" (Amanda Plummer).</string>
+    <string name="jackie_brown_1997_description">When flight attendant Jackie Brown (Pam Grier) is busted smuggling money for her arms dealer boss, Ordell Robbie (Samuel L. Jackson), agent Ray Nicolette (Michael Keaton) and detective Mark Dargus (Michael Bowen) want her help to bring down Robbie. Facing jail time for her silence or death for her cooperation, Brown decides instead to double-cross both parties and make off with the smuggled money. Meanwhile, she enlists the help of bondsman Max Cherry (Robert Forster), a man who loves her.</string>
+    <string name="death_proof_1997_description">Death Proof (1997)</string>
+    <string name="kill_bill_vol_1_2003_description">Kill Bill vol.1 (2003)</string>
+    <string name="kill_bill_vol_2_2004_description">Kill Bill vol.2 (2004)</string>
+    <string name="inglorious_basterds_2009_description">Inglorious Basterds (2009)</string>
+    <string name="django_unchained_2012_description">Django Unchained (2012)</string>
+    <string name="hateful_eight_2015_description">Hateful eight (2015)</string>
+    <string name="once_upon_a_time_in_hollywood_2019_description">Once upon a time in Hollywood (2019)</string>
+
+    <string name="reservoir_dogs_1992_info">Rating:	R (Strong Violence|Language)\nGenre:	Crime, Drama\nOriginal Language:	English\nDirector:	Quentin Tarantino\nProducer:	Lawrence Bender\nWriter:	Roger Avary, Quentin Tarantino\nRelease Date (Theaters):	Oct 23, 1992  Wide\nRelease Date (Streaming):	Mar 18, 2003\nBox Office (Gross USA):	$2.5M\nRuntime:	1h 45m\nDistributor:	Miramax Films, Artisan Entertainment\nSound Mix:	Stereo, Dolby Stereo, Surround\nAspect Ratio:	Scope (2.35:1)</string>
+    <string name="pulp_fiction_1994_info">Rating:	R (Graphic Violence|Drug Use|Strong Violence|Pervasive Language|Some Sexuality|Strong Language)\nGenre:	Crime, Drama\nOriginal Language:	English\nDirector:	Quentin Tarantino\nProducer:	Lawrence Bender\nWriter:	Quentin Tarantino, Quentin Tarantino, Roger Avary\nRelease Date (Theaters):	Oct 14, 1994  Wide\nRelease Date (Streaming):	Aug 20, 2002\nRuntime:	2h 33m\nDistributor:	Miramax Films\nSound Mix:	Dolby Digital, Dolby SR, Stereo, Dolby Stereo, Dolby A\nAspect Ratio:	Scope (2.35:1)</string>
+    <string name="jackie_brown_1997_info">Rating:	R\nGenre:	Crime, Drama\nOriginal Language:	English\nDirector:	Quentin Tarantino\nProducer:	Lawrence Bender\nWriter:	Elmore Leonard, Quentin Tarantino\nRelease Date (Theaters):	Dec 25, 1997  Original\nRelease Date (Streaming):	Aug 20, 2002\nBox Office (Gross USA):	$39.6M\nRuntime:	2h 35m\nDistributor:	Buena Vista International [us], Miramax Films\nSound Mix:	SDDS, Dolby Digital, Surround\nAspect Ratio:	35mm</string>
+    
+<!--    <string name="death_proof_1997_info">Death Proof (1997)</string>-->
+<!--    <string name="kill_bill_vol_1_2003_info">Kill Bill vol.1 (2003)</string>-->
+<!--    <string name="kill_bill_vol_2_2004_info">Kill Bill vol.2 (2004)</string>-->
+<!--    <string name="inglorious_basterds_2009_info">Inglorious Basterds (2009)</string>-->
+<!--    <string name="django_unchained_2012_info">Django Unchained (2012)</string>-->
+<!--    <string name="hateful_eight_2015_info">Hateful eight (2015)</string>-->
+<!--    <string name="once_upon_a_time_in_hollywood_2019_info">Once upon a time in Hollywood (2019)</string>-->
+</resources>
