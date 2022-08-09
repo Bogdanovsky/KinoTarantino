@@ -7,9 +7,10 @@
         <entry key="app/src/main/res/drawable/favourite_selector.xml" value="0.3935" />
         <entry key="app/src/main/res/font/robotp.xml" value="0.2537037037037037" />
         <entry key="app/src/main/res/layout/activity_jackie_brown.xml" value="0.5890625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4703703703703704" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2404393816110659" />
         <entry key="app/src/main/res/layout/activity_pulp_fiction.xml" value="0.3078125" />
         <entry key="app/src/main/res/layout/activity_reservoir_dogs.xml" value="0.4759259259259259" />
+        <entry key="app/src/main/res/menu/overfow_menu.xml" value="0.3067708333333333" />
       </map>
     </option>
   </component>

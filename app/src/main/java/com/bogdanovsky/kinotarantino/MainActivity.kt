@@ -4,9 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.view.inputmethod.InputBinding
+import android.widget.Button
 import android.widget.ImageView
+import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 
 class MainActivity : AppCompatActivity() {
@@ -17,14 +21,13 @@ class MainActivity : AppCompatActivity() {
         var jackieBrownIsFavourite = false
     }
 
-//    private lateinit var binding: MainActivityBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val alphaWhenPressed = 85
 //        binding = MainActivityBinding.inflate(layoutInflater)
+
 
         findViewById<ImageView>(R.id.reservoir_dogs_image).setOnClickListener {
             (it as ImageView).imageAlpha = alphaWhenPressed
@@ -68,5 +71,33 @@ class MainActivity : AppCompatActivity() {
         findViewById<ImageView>(R.id.pulp_fiction_star).visibility = if (pulpFictionIsFavourite) View.VISIBLE else View.INVISIBLE
         findViewById<ImageView>(R.id.jackie_brown_star).visibility = if (jackieBrownIsFavourite) View.VISIBLE else View.INVISIBLE
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.overfow_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_send_invitation -> inviteFriends()
+        }
+        return true
+    }
+
+    private fun inviteFriends() {
+        startActivity(getInviteIntent())
+    }
+
+    private fun getInviteIntent(): Intent {
+        return ShareCompat.IntentBuilder(this)
+            .setText("Hello! Checkout Quentin Tarantino's filmography in KinoTarantino app!")
+            .setType("plain/text")
+            .intent
+
+//        Intent()
+//            .setAction(Intent.ACTION_SEND)
+//            .setType("plain/text")
+//            .putExtra(Intent.EXTRA_TEXT, "Hello! Checkout Quentin Tarantino's filmography in KinoTarantino app!")
     }
 }
